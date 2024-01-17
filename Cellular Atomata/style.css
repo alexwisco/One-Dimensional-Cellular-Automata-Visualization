@@ -1,0 +1,84 @@
+
+/*  where the simulation takes place */
+.grid-layout {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    border:2px;
+    border-color: black;
+    border-style: solid;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+/*  background of webpage - spotify theme for this week */
+.maindiv {
+    background: linear-gradient(10DEG, #1db954,#2f2b2b);
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+}
+
+/* define cell properties */
+.cell {
+    height: 5px;
+    width: 5px;
+}
+
+.header {
+    position: absolute;
+    align-items: center; 
+    text-align: center;
+    top: 8px;
+    left: 28px;
+    width: 1218px;
+    height: 50px;
+    border: 2px solid #191414;
+    background: #191414;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.msgBox01 {
+    position:absolute;
+    top:75px;
+    left:30px;
+    width:300px;
+    background: linear-gradient(10DEG,#2f2b2b, #1db954);
+    border: 2px solid black;
+    border-radius: 4px 4px 4px 4px;
+    color:#fff;
+    padding:3px;
+}
+
+.msgBox01 p {
+    line-height: 1.5;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.msgBox02 {
+    position:absolute;
+    top:75px;
+    right: 30px;
+    width:300px;
+    background: linear-gradient(10DEG, #2f2b2b, #1db954);
+    border: 2px solid black;
+    border-radius: 4px 4px 4px 4px;
+    color: #fff;
+}
+
+.msgBox02 p {
+    line-height: 1.5;
+    padding: 8px 20px;
+    color: #fff;
+}
+
+
+
